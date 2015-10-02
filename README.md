@@ -22,8 +22,7 @@ Example:
 
 ```
   <head>
-    <title>My Website</title>
-    <link rel="stylesheet" type="text/css" />
+    ...
     <script type="text/javascript" src="path/to/deviceTypeDetection.js"></script>
     <script type="text/javascript">
       YOUR JAVASCRIPT GOES HERE
