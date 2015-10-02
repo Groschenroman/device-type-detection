@@ -2,7 +2,7 @@
 
 JavaScript Snippet to detect the device type a user is browsing with.
 The Script is inspired by [detectmobilebrowsers.com].
-** Thanks [Chad Smith] for this great site.
+** Thanks [Chad Smith] for this great site. **
 
 ### Installation
 
