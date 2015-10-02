@@ -2,6 +2,7 @@
 
 JavaScript Snippet to detect the device type a user is browsing with.
 The Script is inspired by [detectmobilebrowsers.com].
+** Thanks [Chad Smith] for this great site.
 
 ### Installation
 
@@ -14,18 +15,21 @@ file into your website project.
 **2. Embed file**
 
 Place the script tag in the ``` <head> ``` section of your site like this:
-``` <script type="text/javascript" src="path/to/deviceTypeDetection.js"></script> ```
-> **NOTE:** To use the script you have to place this script tag
-> **before your custom javascript**.
-> Example:
-> ``` <head>
-> ```   <title>My Website</title>
-> ```   <link rel="stylesheet" type="text/css" />
-> ```   <script type="text/javascript" src="path/to/deviceTypeDetection.js"></script>
-> ```   <script type="text/javascript">
-> ```     YOUR JAVASCRIPT GOES HERE
-> ```   </script>
-> ``` </head>
+``` <script src="path/to/deviceTypeDetection.js"></script> ```
+**NOTE:** To use the script you have to place this script tag
+**before your custom javascript**.
+Example:
+
+```
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="path/to/deviceTypeDetection.js"></script>
+    <script type="text/javascript">
+      YOUR JAVASCRIPT GOES HERE
+    </script>
+  </head>
+```
 
 ### Usage
 
@@ -46,3 +50,4 @@ The function returns one of the following strings:
 
 
 [detectmobilebrowsers.com]: <http://detectmobilebrowsers.com/>
+[Chad Smith]: <http://twitter.com/chadsmith>
